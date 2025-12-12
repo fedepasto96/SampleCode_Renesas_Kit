@@ -1,0 +1,7 @@
+*.obj
+*.abs
+*.map
+*.clnk
+*.bak
+*.tmp
+

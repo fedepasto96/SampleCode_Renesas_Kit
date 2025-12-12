@@ -1,0 +1,6 @@
+* Renesas Electronics Corp. Sequence file for generic button.,,,
+,,,
+FuncName,S/W Reset,,
+,,,
+Operation,CMD(hex),Radix,Data
+WriteWord,5D,Hex,5678

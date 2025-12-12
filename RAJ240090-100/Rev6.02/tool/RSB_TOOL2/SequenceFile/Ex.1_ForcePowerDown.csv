@@ -1,0 +1,8 @@
+* Renesas Electronics Corp. Sequence file for generic button.,,,
+,,,
+FuncName,Force Power Down,,
+,,,
+Operation,CMD(hex),Radix,Data
+WriteWord,0,Hex,2345
+Wait,,Dec,50
+WriteWord,0,Hex,6789
