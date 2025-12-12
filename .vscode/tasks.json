@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Flash to Board (RFP)",
+            "type": "shell",
+            "command": "rfp-cli",
+            "args": [
+                "-device", "RL78",
+                "-tool", "E2LITE",
+                "-interface", "TOOL0",
+                "-speed", "auto",
+                "-auto", "${workspaceFolder}\\RAJ240090-100\\Rev6.02\\src\\090_100_SPL\\DefaultBuild\\RAJ240100_CS+v8.01_or_later.mot"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
